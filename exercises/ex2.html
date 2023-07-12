@@ -84,8 +84,77 @@
             </p>
         </section>
         <section id="answers" class="container">
+            <form id="form1">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="form1" name="form1" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="form1" name="form1" value="Doe">
+            </form>
+            <p></p>
+            <form id="form2">
+                <label for="fname">first name</label>
+            <input type="text" id="form2" name="form2">
+            <label for="mname"> middle name </label>
+            <input type="text" id="form2" name="form2" disabled>
+            <label for="lname">last name</label>
+            <input type="text" id="form2" name="form2">
+            </form>
+            <p></p>
+<form id="form3">
+    <label for="username"> Username:</label><br>
+    <input type="text" id="form3" name="form3"><br>
+    <label for="pwd"> Password:</label><br>
+    <input type="text" id="form3" name="form3" readonly>
+</form>
+<p></p>
+<form id="form4">
+    <textarea name="messege" rows="10" cols="50" maxlength="50">Enter review here:</textarea>
+    <button type="button">Reset</button> 
+</form>
+<p></p>
+<form id="form5">
+    <textarea name="messege" rows="10" cols="100" maxlength="100">Enter review here:</textarea>
 
-        </section>
+</form>
+<p></p>
+<form id="form6">
+    <label for="datemax">Enter a date during the Covid pandemic:</label><br>
+                <input type="date" id="datemax" name="datemax" max="05-11-23"><br><br>
+                <label for="datemin">Enter a day before the date "May 11th 2023:</label><br>
+                <input type="date" id="datemin" name="datemin" min="01-31-20">
+</form>
+<form>
+<label for="files">select files:</label>
+<input type="file" id="files" name="files" multiple>
+</form>
+<form>
+    <label for="question">Ask your question:</label><br>
+    <input type="text" id="question" name="question"><br>
+    <input type="submit" value="Submit">
+  </form>
+<form>
+    <label for="quantity">Your favorite number (between 1 and 1000):</label>
+<input type="number" id="quantity" name="quantity" min="1" max="1000" autofocus>
+</form>  
+<form>
+    <label for="points">Points (between 0 and 100):</label>
+    <input type="range" id="points" name="points" min="0" max="100" step="2">
+    
+</form>
+<form>
+    
+<form>
+ <p>Pick you fav fruit</p>
+    <input type="radio" id="grape" name="fav fruit" value="grape">
+    <label for="grape">grape</label><br>
+    <input type="radio" id="bannana" name="fav fruit" value="bannana">
+    <label for="bannana">bannana</label><br>
+    <input type="radio" id="apple" name="fav fruit" value="Apple">
+    <label for="apple">apple</label><br>
+  </form>
+  
+</form>
+</section>
         <script src="" async defer></script>
     </body>
 </html>
